@@ -46,7 +46,7 @@ app.post('/rooms', async (req, res) => {
     res.status(201).json({ message: 'Room Created', roomId: result.insertedId });
   } catch (err) {
     console.error('Error creating room:', err);
-    res.status(500).json({ message: 'Failed to create room' });
+    res.status(500).json({ message: 'Failed to create room.' });
   }
 });
 
