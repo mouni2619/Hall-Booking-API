@@ -23,14 +23,14 @@ async function connectToMongo() {
   }
 }
 
-async function disconnectFromMongo() {
-  try {
-    await client.close();
-    console.log('Disconnected from MongoDB');
-  } catch (err) {
-    console.error('Failed to disconnect from MongoDB:', err);
-  }
-}
+// async function disconnectFromMongo() {
+//   try {
+//     await client.close();
+//     console.log('Disconnected from MongoDB');
+//   } catch (err) {
+//     console.error('Failed to disconnect from MongoDB:', err);
+//   }
+// }
 
 // Endpoint to get the basic information about the API
 app.get("/", (req, res) => {
@@ -209,9 +209,9 @@ connectToMongo().then(() => {
 });
 
 // Graceful shutdown
-process.on('SIGINT', () => {
-  disconnectFromMongo().then(() => {
-    console.log('MongoDB connection closed');
-    process.exit();
-  });
-});
+// process.on('SIGINT', () => {
+//   disconnectFromMongo().then(() => {
+//     console.log('MongoDB connection closed');
+//     process.exit();
+//   });
+// });
