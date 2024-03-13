@@ -3,8 +3,8 @@ import { MongoClient, ObjectId } from 'mongodb';
 import dotenv from 'dotenv';
 
 const app = express();
-const PORT = process.env.PORT || 3000;
-const uri = process.env.MONGODB_URI || 'mongodb://localhost:27017';
+const PORT = process.env.PORT || 4000;
+const uri = process.env.MONGODB_URI || 'mongodb://0.0.0.0:27017';
 const client = new MongoClient(uri);
 
 let db;
