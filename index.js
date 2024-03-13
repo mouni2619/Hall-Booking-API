@@ -76,7 +76,7 @@ app.post('/bookings', async (req, res) => {
   }
 });
 
-// Endpoint to get all rooms with booking status
+// Endpoint to get all rooms with booking status.
 app.get('/rooms', async (req, res) => {
   try {
     const rooms = await db.collection('rooms').find().toArray();
