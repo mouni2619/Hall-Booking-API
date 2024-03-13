@@ -1,16 +1,16 @@
 import express from 'express';
 import { MongoClient, ObjectId } from 'mongodb';
 import dotenv from 'dotenv';
-
+dotenv.config();
 const app = express();
-const PORT = process.env.PORT || 4000;
-const uri = process.env.MONGODB_URI || 'mongodb://0.0.0.0:27017';
+const PORT = process.env.PORT || 3000;
+const uri = process.env.MONGODB_URI || 'mongodb://localhost:27017';
 const client = new MongoClient(uri);
 
 let db;
 
 app.use(express.json());
-dotenv.config();
+
 
 // MongoDB Connection
 async function connectToMongo() {
@@ -204,6 +204,7 @@ app.get('/customer/:customerName/booking-history', async (req, res) => {
 // Start the server
 connectToMongo().then(() => {
   app.listen(PORT, () => {
+    console.log("running port on", PORT);
   });
 });
 
