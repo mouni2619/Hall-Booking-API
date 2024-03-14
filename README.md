@@ -27,11 +27,11 @@ Here I provided the URL to get booking history for a specific customer
 
 🔗https://hall-booking-api-7.onrender.com/customer/:customerName/booking-history
 
-🔗https://hall-booking-api-7.onrender.com/customer/John Doe/booking-history
+🔗https://hall-booking-api-7.onrender.com/customer/John%20Doe/booking-history
 
-🔗https://hall-booking-api-7.onrender.com/customer/Bob Brown/booking-history
+🔗https://hall-booking-api-7.onrender.com/customer/Bob%20Brown/booking-history
 
-🔗https://hall-booking-api-7.onrender.com/customer/Alice Smith/booking-history
+🔗https://hall-booking-api-7.onrender.com/customer/Alice%20Smith/booking-history
 
 ## Installation
 1. Clone the repository.
