@@ -33,7 +33,12 @@ Retrieves the booking history for a specific customer. It includes details such 
 
 Here I provided the URL to get booking history for a specific customer
 
+In this URL
+
 🔗https://hall-booking-api-7.onrender.com/customer/:customerName/booking-history
+
+give particular :customerName and get response like below i mentioned
+
 
 🔗https://hall-booking-api-7.onrender.com/customer/John%20Doe/booking-history
 
