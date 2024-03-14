@@ -23,12 +23,6 @@ The Hall Booking Application API provides endpoints for managing rooms and booki
 - MongoDB
 - dotenv
 
-## Additional Information
-- For security reasons, do not expose your MongoDB URI in your code.
-- This project is still under development. Future updates will include [list of future updates].
-
-
-
 
 
 // Endpoint to get the basic information about the API
