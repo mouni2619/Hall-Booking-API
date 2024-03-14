@@ -5,6 +5,10 @@ This Hall Booking Application API sets up a server using Express.js, a web frame
 
 🖊️POST /rooms,🖊️POST /bookings,📖GET /rooms,📖GET /customers,📖GET /customer/:customerName/booking-history
 
+POSTMAN DOC LINK:
+
+https://documenter.getpostman.com/view/33522302/2sA2xjzqyZ#5e725d66-e91c-434f-9a24-781628ac3097
+
 📖GET /:
 
 Here I provided the URL to get the basic information about the API
