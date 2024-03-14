@@ -1,4 +1,5 @@
 ## Hall Booking Application API
+
 ## Overview
 This Hall Booking Application API sets up a server using Express.js, a web framework for Node.js, to manage rooms and bookings for a hall booking application. It integrates with MongoDB, a NoSQL database, using the MongoDB Node.js driver. The code defines several routes to handle different functionalities:
 🖊️POST /rooms,🖊️POST /bookings,📖GET /rooms,📖GET /customers,📖GET /customer/:customerName/booking-history
@@ -25,8 +26,11 @@ Retrieves the booking history for a specific customer. It includes details such 
 Here I provided the URL to get booking history for a specific customer
 
 🔗https://hall-booking-api-7.onrender.com/customer/:customerName/booking-history
+
 🔗https://hall-booking-api-7.onrender.com/customer/John Doe/booking-history
+
 🔗https://hall-booking-api-7.onrender.com/customer/Bob Brown/booking-history
+
 🔗https://hall-booking-api-7.onrender.com/customer/Alice Smith/booking-history
 
 ## Installation
